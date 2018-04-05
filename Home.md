@@ -56,8 +56,8 @@ Use this to compare your state to the one shown in the screenshots
 
 | Commit link | Description | Screenshot |
 | --- | --- | :---: |
-| [0862c4](https://github.com/Rainrider/oUF_Layout/commit/0862c470863112e885f4aff45953d588b3d150ac) | player and target frames' backdrop | |
-| [2b43c7](https://github.com/Rainrider/oUF_Layout/commit/2b43c733cf5338a8bb8296e7e4817aa1f29dbc4e) | health bars | |
+| [0862c4](https://github.com/Rainrider/oUF_Layout/commit/0862c470863112e885f4aff45953d588b3d150ac) | player and target frames' backdrop | ![player and target](screenshots/01.%20frame%20backdrop.jpg) |
+| [2b43c7](https://github.com/Rainrider/oUF_Layout/commit/2b43c733cf5338a8bb8296e7e4817aa1f29dbc4e) | health bars | ![healthbar](screenshots/02.%20healthbar.jpg) |
 
 ## Getting Help
 
