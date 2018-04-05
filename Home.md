@@ -52,7 +52,12 @@ The code structure has evolved during the development of _oUF_Layout_. The curre
 
 ## Visual Guide
 
-Use this to compare your state to the one shown in the screenshots
+Use this to compare your state to the one shown on the images. Please keep in mind that the screenshots were taken at 
+the time of the corresponding commit. Errors or undescribed behaviour might occur if "outside code" (like oUF elements, 
+third party addons or the WoW API) has changed since the commit has been made. Fixes for found problems are introduced 
+in later commits. For some of the screenshots some internal oUF functions were temporary modified (not visible in the 
+code) in order to get a better visual. Those are castbar (for the latency indicator), buffs and debuffs. Do not wonder 
+if your results differ slightly.
 
 | Commit link | Description | Screenshot |
 | --- | --- | :---: |
