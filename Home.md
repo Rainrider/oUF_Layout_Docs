@@ -7,22 +7,34 @@ This guide is for the beginner oUF layout creator. It aims to demostrate how to 
   2. You know how to create a simple addon ([Getting started with writing addons](https://wow.gamepedia.com/Getting_started_with_writing_addons)).
   3. Some knowledge in _git_ is a plus ([The Git Book](https://git-scm.com/book/en/v2)).
 
-If you lack knowledge on the first two topics of this list, then this guide is not for you.
-Knowing _git_ might be helpful as it makes it possible to create separate branches for your changes and you can easily restore your local copy of the repository to a known good state if something goes wrong.
+If you are unfamiliar the first two topics on this list, then this guide is not for you! Fill you gaps and come back 
+later.
+
+Knowing _git_ might be helpful as it makes it possible to create separate branches for your changes and you can easily 
+restore your local copy of the repository to a known good state if something goes wrong.
 
 #### How to use this guide
 
-The basic intent is for you to follow the commits from start to end and try to recreate them yourself. Feel free to change the code on the go to get a better understanding of how it works.
+The basic intent is for you to follow the commits from start to end and try to recreate them yourself. Feel free to 
+change the code on the go to get a better understanding of how it works.
 
-You can of course download _oUF_Layout_ and try to customize it for your own needs if you think that this better suits the way you learn.
+You can of course download _oUF_Layout_ and try to customize it for your own needs if you think that this better suits 
+the way you learn.
 
 ## Installation
 
-_oUF_Layout_ is not meant for installation. You should rather recreate the layout yourself by following the commits. You have to install the dependencies separately as those are not embedded into the addon. Take a look at [oUF_Layout.toc](https://github.com/Rainrider/oUF_Layout/blob/master/oUF_Layout.toc) for a list of required and optional dependencies.
+_oUF_Layout_ is not meant for installation. You should rather recreate the layout yourself by following the commits. 
+You have to install the dependencies separately as those are not embedded into the addon. Take a look at 
+[oUF_Layout.toc](https://github.com/Rainrider/oUF_Layout/blob/master/oUF_Layout.toc) for a list of required and 
+optional dependencies.
 
-You should also install addons for capturing and displaying errors in-game. [!BugGrabber](http://www.wowinterface.com/downloads/info23141-BugGrabber.html) and [BugSack](http://www.wowinterface.com/downloads/info5995-BugSack.html) are a good choice.
+You should also install addons for capturing and displaying errors in-game. 
+[!BugGrabber](http://www.wowinterface.com/downloads/info23141-BugGrabber.html) and 
+[BugSack](http://www.wowinterface.com/downloads/info5995-BugSack.html) are a good choice.
 
-If you however want to just install the layout and use it as is, you can download it [here](https://github.com/Rainrider/oUF_Layout/archive/master.zip). Rename the extracted folder to `oUF_Layout` and copy/move it to your `<WoW folder>\Interface\AddOns` folder.
+If you however want to just install the layout and use it as is, you can download it 
+[here](https://github.com/Rainrider/oUF_Layout/archive/master.zip). Rename the extracted folder to `oUF_Layout` and 
+copy/move it to your `<WoW folder>\Interface\AddOns` folder.
 
 If you are using _git_, you can issue the following commands:
   1. `cd <WoW folder>\Interface\AddOns`
@@ -30,12 +42,14 @@ If you are using _git_, you can issue the following commands:
 
 ## Debugging
 
-[AdiDebug](https://github.com/Adirelle/AdiDebug) has been added as an optionial dependency to aid in debugging. The `Debug` function is added
-to the addon's namespace and can be called like `ns.Debug('prefix', 'message')`, where 'prefix' is an optional string you could use for 
-grouping messages, and 'message' is your debug output. It is a vararg function, so you can pass as many arguments to it as you wish. Objects 
-and values passed to it will be coersed into their string representation.
+[AdiDebug](https://github.com/Adirelle/AdiDebug) has been added as an optionial dependency to aid in debugging. The 
+`Debug` function is added to the addon's namespace and can be called like `ns.Debug('prefix', 'message')`, where 
+'prefix' is an optional string you could use for grouping messages, and 'message' is your debug output. It is a vararg 
+function, so you can pass as many arguments to it as you wish. Objects and values passed to it will be coersed into 
+their string representation.
 
-Open AdiDebug by using the `/ad` or `/adidebug` slash commands and then select oUF_Layout from the dropdown menu to see your debug messages.
+Open AdiDebug by using the `/ad` or `/adidebug` slash commands and then select oUF_Layout from the dropdown menu to see 
+your debug messages.
 
 ## Code Structure
 
@@ -56,8 +70,8 @@ Use this to compare your state to the one shown on the images. Please keep in mi
 the time of the corresponding commit. Errors or undescribed behaviour might occur if "outside code" (like oUF elements, 
 third party addons or the WoW API) has changed since the commit has been made. Fixes for found problems are introduced 
 in later commits. For some of the screenshots some internal oUF functions were temporary modified (not visible in the 
-code) in order to get a better visual. Those are castbar (for the latency indicator), buffs and debuffs. Do not wonder 
-if your results differ slightly.
+code) in order to get a better visual. Those are castbar (for the latency indicator), buffs, debuffs and stagger. Do 
+not wonder if your results differ slightly.
 
 | Commit link | Description | Screenshot |
 | --- | --- | :---: |
@@ -101,9 +115,11 @@ if your results differ slightly.
 
 ## Getting Help
 
-You can get help in the [oUF section of the WoWInterface forums](http://www.wowinterface.com/forums/forumdisplay.php?f=87), but please keep the following in mind:
+You can get help in the [oUF section of the WoWInterface forums](http://www.wowinterface.com/forums/forumdisplay.php?f=87), 
+but please keep the following in mind:
 
-  - put some effort in answering your question yourself before asking others for help, and demonstrate this effort when asking the question
+  - put some effort in answering your question yourself before asking others for help, and demonstrate this effort when 
+asking the question
   - be able to show all your code
   - be receptive for feedback and suggestions
 
