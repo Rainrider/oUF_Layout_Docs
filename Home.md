@@ -7,8 +7,8 @@ This guide is for the beginner oUF layout creator. It aims to demostrate how to 
   2. You know how to create a simple addon ([Getting started with writing addons](https://wow.gamepedia.com/Getting_started_with_writing_addons)).
   3. Some knowledge in _git_ is a plus ([The Git Book](https://git-scm.com/book/en/v2)).
 
-If you are unfamiliar the first two topics on this list, then this guide is not for you! Fill you gaps and come back 
-later.
+If you are unfamiliar with the first two topics on this list, then this guide is not for you! Fill your gaps and come 
+back later.
 
 Knowing _git_ might be helpful as it makes it possible to create separate branches for your changes and you can easily 
 restore your local copy of the repository to a known good state if something goes wrong.
